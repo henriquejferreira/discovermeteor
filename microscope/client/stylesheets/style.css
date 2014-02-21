@@ -1,9 +1,9 @@
-.grid-block, .main, .post, .commentsli, .comment-form {
+.grid-block, .main, .post, .comments li, .comment-form {
     background: #fff;
     border-radius: 3px;
     padding: 10px;
     margin-bottom: 10px;
-    box-shadow: 01px1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
 }
 body {
     background: #eee;
@@ -12,19 +12,19 @@ body {
 .navbar {
     margin-bottom: 10px
 }
-.navbar.navbar-inner {
-    border-radius: 0px0px3px3px;
+.navbar .navbar-inner {
+    border-radius: 0px 0px 3px 3px;
 }
 #spinner {
     height: 300px
 }
 .post {
     *zoom: 1;
-    -webkit-transition: all300ms 0ms;
+    -webkit-transition: all 300ms 0ms;
     -webkit-transition-delay: ease-in;
-    -moz-transition: all300ms 0ms ease-in;
-    -o-transition: all300ms 0ms ease-in;
-    transition: all300ms 0ms ease-in;
+    -moz-transition: all 300ms 0ms ease-in;
+    -o-transition: all 300ms 0ms ease-in;
+    transition: all 300ms 0ms ease-in;
     position: relative;
     opacity: 1;
 }
@@ -38,33 +38,33 @@ body {
 .post.invisible {
     opacity: 0
 }
-.post.upvote {
+.post .upvote {
     display: block;
-    margin: 7px12px00;
+    margin: 7px 12px 0 0;
     float: left;
 }
-.post.post-content {
+.post .post-content {
     float: left
 }
-.post.post-contenth3 {
+.post .post-content h3 {
     margin: 0;
     line-height: 1.4;
     font-size: 18px;
 }
-.post.post-contenth3a {
+.post .post-content h3 a {
     display: inline-block;
     margin-right: 5px;
 }
-.post.post-contenth3span {
+.post .post-content h3 span {
     font-weight: normal;
     font-size: 14px;
     display: inline-block;
     color: #aaaaaa;
 }
-.post.post-contentp {
+.post .post-content p {
     margin: 0
 }
-.post.discuss {
+.post .discuss {
     display: block;
     float: right;
     margin-top: 7px;
@@ -73,21 +73,21 @@ body {
     list-style-type: none;
     margin: 0;
 }
-.commentslih4 {
+.comments li h4 {
     font-size: 16px;
     margin: 0;
 }
-.commentslih4.date {
+.comments li h4 .date {
     font-size: 12px;
     font-weight: normal;
 }
-.commentslih4a {
+.comments li h4 a {
     font-size: 12px
 }
-.commentslip:last-child {
+.comments li p:last-child {
     margin-bottom: 0
 }
-.dropdown-menuspan {
+.dropdown-menu span {
     display: block;
     padding: 3px20px;
     clear: both;
