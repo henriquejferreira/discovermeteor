@@ -37,7 +37,9 @@ var requireLogin = function(){
         
         this.stop();
     }
-}
+};
 
-Router.before(requireLogin,{only:'postSubmit'})
+Router.before(requireLogin,{only:'postSubmit'});
+
+Router.before(function({clearErrors()});
 
